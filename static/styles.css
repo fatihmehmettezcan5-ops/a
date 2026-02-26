@@ -1,0 +1,74 @@
+:root {
+  color-scheme: dark;
+  font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+}
+
+body {
+  margin: 0;
+  background: #10131a;
+  color: #eef2ff;
+}
+
+.container {
+  max-width: 980px;
+  margin: 0 auto;
+  padding: 24px;
+}
+
+textarea,
+input,
+select,
+button {
+  width: 100%;
+  box-sizing: border-box;
+  margin-top: 8px;
+  margin-bottom: 14px;
+  border-radius: 10px;
+  border: 1px solid #2f374a;
+  background: #1a2130;
+  color: #eef2ff;
+  padding: 10px;
+}
+
+button {
+  cursor: pointer;
+  background: #3662ff;
+  border: none;
+  font-weight: 700;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
+  gap: 10px;
+}
+
+#summary ul {
+  padding-left: 20px;
+}
+
+.move-card {
+  border: 1px solid #2f374a;
+  border-radius: 12px;
+  padding: 12px;
+  margin-bottom: 10px;
+  background: #171d2a;
+}
+
+.badge {
+  display: inline-block;
+  font-size: 12px;
+  padding: 4px 8px;
+  border-radius: 8px;
+  margin-bottom: 8px;
+  font-weight: 700;
+}
+
+.brilliant { background: #20c997; color: #062b20; }
+.great { background: #67e8f9; color: #062534; }
+.good { background: #a3e635; color: #24320a; }
+.inaccuracy { background: #facc15; color: #3d3008; }
+.mistake { background: #fb923c; color: #3f1906; }
+.blunder { background: #f87171; color: #3b0808; }
+
+.error { color: #fca5a5; }
